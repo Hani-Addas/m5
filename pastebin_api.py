@@ -5,7 +5,7 @@ https://pastebin.com/doc_api
 import requests
 
 PASTEBIN_API_POST_URL = 'https://pastebin.com/api/api_post.php'
-API_DEV_KEY = '52m3m3MEd3bIAD81vR98pDrOyf0pnRTp'
+API_DEV_KEY = "52m3m3MEd3bIAD81vR98pDrOyf0pnRTp"
 
 def post_new_paste(title, body_text, expiration='N', listed=True):
     """Posts a new paste to PasteBin
@@ -46,9 +46,10 @@ def post_new_paste(title, body_text, expiration='N', listed=True):
 
     
 def main():
-    post_new_paste('Awso, paste', ' This paste is not useful.\ndelete whenever.', '1H', False')
+    post_new_paste ('Awsom, paste', ' This paste is not useful.\ndelete whenever.', '1H', False)
 
 if __name__=='__main__':
     main()
+    
 
    
